@@ -27,28 +27,31 @@ public class AgeCalculatorOSGiClient {
 	ServiceReference reference;
 	IAgeCalculator ageCalculator;
 
+	@SuppressWarnings("unchecked")
 	public void activate(ComponentContext context) {
 
 		Scanner scanner = new Scanner(System.in);
 
-		System.out.println("What is your year of birth?");
-		int year = scanner.nextInt();
+		System.out.println("Choose where do you want to go?");
+		System.out.println("1. Barber Shop");
+		System.out.println("2. Pet Shop");
+		System.out.println("3. Laundry");
+		System.out.println("4. Restaurant");
+		System.out.println("5. Workshop");
+		int placeCode = scanner.nextInt();
 
-		System.out.println("What is your month of birth (1-12)?");
-		int month = scanner.nextInt();
+		System.out.println("Please type in your longitude.");
+		double longitude = scanner.nextDouble();
 
-		System.out.println("What is your date of birth (1-31)?");
-		int date = scanner.nextInt();
-
-		Calendar dateOfBirth = new GregorianCalendar();
-		dateOfBirth.clear();
-		dateOfBirth.set(year, month - 1, date);
+		System.out.println("Please type in your latitude");
+		double latitude = scanner.nextDouble();
+		
 
 		if (reference != null) {
-			ageCalculator = (IAgeCalculator) context.locateService(
-					"IAgeCalculator", reference);
+			ageCalculator = (IAgeCalculator) context.locateService("IAgeCalculator", reference);
 
-			int age = ageCalculator.calculateAge(dateOfBirth);
+			int age = ageCalculator.suggestPlace(placeCode, longitude, latitude);
+			System.out.println("Masuk lu");
 
 			System.out.println("Your age is " + age);
 

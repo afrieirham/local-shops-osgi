@@ -1,5 +1,6 @@
 package codabook.agecalculator.osgi.ifce;
 
+import java.util.ArrayList;
 import java.util.Calendar;
 
 /*************************************************************************************************
@@ -15,5 +16,6 @@ import java.util.Calendar;
 **************************************************************************************************/
 
 public interface IAgeCalculator {
-	public int calculateAge(Calendar dateOfBirth);
+	public int suggestPlace(int placeCode, double longitude, double latitude);
+	
 }
