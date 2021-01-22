@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Client
+Bundle-SymbolicName: AgeCalculatorClient
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Import-Package: codabook.agecalculator.osgi.ifce,
+ org.osgi.framework;version="1.6.0",
+ org.osgi.service.component;version="1.1.0"
+Service-Component: META-INF/component.xml
+ 

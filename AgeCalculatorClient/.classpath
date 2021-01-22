@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Equinox"/>
+	<classpathentry kind="lib" path="C:/Users/afrie/Desktop/OSGi Lab Practice -20210122/section_3_5_src/Launcher/codabook.agecalculator.osgi.client_1.0.0.201306121201.jar"/>
+	<classpathentry kind="lib" path="C:/Users/afrie/Desktop/OSGi Lab Practice -20210122/section_3_5_src/Launcher/codabook.agecalculator.osgi.ifce_1.0.0.201306121201.jar"/>
+	<classpathentry kind="lib" path="C:/Users/afrie/Desktop/OSGi Lab Practice -20210122/section_3_5_src/Launcher/codabook.agecalculator.osgi.impl_1.0.0.201306121201.jar"/>
+	<classpathentry kind="lib" path="C:/Users/afrie/Desktop/OSGi Lab Practice -20210122/section_3_5_src/Launcher/org.eclipse.equinox.ds_1.4.0.v20120522-1841.jar"/>
+	<classpathentry kind="lib" path="C:/Users/afrie/Desktop/OSGi Lab Practice -20210122/section_3_5_src/Launcher/org.eclipse.equinox.util_1.0.400.v20120522-2049.jar"/>
+	<classpathentry kind="lib" path="C:/Users/afrie/Desktop/OSGi Lab Practice -20210122/section_3_5_src/Launcher/org.eclipse.osgi.services_3.3.100.v20120522-1822.jar"/>
+	<classpathentry kind="lib" path="C:/Users/afrie/Desktop/OSGi Lab Practice -20210122/section_3_5_src/Launcher/org.eclipse.osgi.util_3.2.300.v20120522-1822.jar"/>
+	<classpathentry kind="lib" path="C:/Users/afrie/Desktop/OSGi Lab Practice -20210122/section_3_5_src/Launcher/org.eclipse.osgi_3.8.0.v20120529-1548.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
