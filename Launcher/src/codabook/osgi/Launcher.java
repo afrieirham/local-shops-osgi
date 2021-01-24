@@ -1,7 +1,6 @@
 package codabook.osgi;
 
 import java.io.File;
-import java.lang.reflect.Method;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
@@ -14,16 +13,7 @@ import org.osgi.framework.BundleContext;
 import org.osgi.framework.BundleException;
 import org.osgi.framework.launch.Framework;
 import org.osgi.framework.launch.FrameworkFactory;
-/***************************************************************************************************
-*
-* COMPANION CODE FOR THE BOOK “Component Oriented Development & Assembly – CODA Using Java”
-* 
-* @author – Piram Manickam, Sangeetha S, Subrahmanya S V
-* @see - http://www.codabook.com
-* 
-* <br><br><b>CODE CONTRIBUTORS</b> – <p>- Vishal Verma, Shikhar Johari, Soumya Bardhan, Rohit Jain,
-* 										  Karthika Nair, Vibhuti Pithwa, Vaasavi Lakshmi</p>
-****************************************************************************************************/
+
 public class Launcher {
 
 	public static void main(String[] args) {

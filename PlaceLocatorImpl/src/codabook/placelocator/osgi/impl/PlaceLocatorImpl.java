@@ -11,24 +11,6 @@ import java.util.Scanner;
 import codabook.placelocator.osgi.ifce.AvailablePlace;
 import codabook.placelocator.osgi.ifce.IPlaceLocator;
 
-/*************************************************************************************************
- *
- * COMPANION CODE FOR THE BOOK “Component Oriented Development & Assembly – CODA
- * Using Java”
- * 
- * @author – Piram Manickam, Sangeetha S, Subrahmanya S V
- * @see - http://www.codabook.com
- * 
- *      <br>
- *      <br>
- *      <b>CODE CONTRIBUTORS</b> –
- *      <p>
- *      - Vishal Verma, Shikhar Johari, Soumya Bardhan, Rohit Jain, Karthika
- *      Nair, Vibhuti Pithwa, Vaasavi Lakshmi
- *      </p>
- * 
- **************************************************************************************************/
-
 public class PlaceLocatorImpl implements IPlaceLocator {
 
 	public ArrayList<AvailablePlace> shopArrayList = new ArrayList<AvailablePlace>();
