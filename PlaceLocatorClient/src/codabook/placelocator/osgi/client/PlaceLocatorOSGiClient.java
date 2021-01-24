@@ -1,4 +1,4 @@
-package codabook.agecalculator.osgi.client;
+package codabook.placelocator.osgi.client;
 
 import java.text.DecimalFormat;
 import java.util.Scanner;
@@ -6,8 +6,8 @@ import java.util.Scanner;
 import org.osgi.framework.ServiceReference;
 import org.osgi.service.component.ComponentContext;
 
-import codabook.agecalculator.osgi.ifce.AvailablePlace;
-import codabook.agecalculator.osgi.ifce.IPlaceLocator;
+import codabook.placelocator.osgi.ifce.AvailablePlace;
+import codabook.placelocator.osgi.ifce.IPlaceLocator;
 
 /*************************************************************************************************
 *

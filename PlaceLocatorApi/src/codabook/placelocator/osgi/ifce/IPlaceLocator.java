@@ -1,4 +1,4 @@
-package codabook.agecalculator.osgi.ifce;
+package codabook.placelocator.osgi.ifce;
 
 /*************************************************************************************************
 *

@@ -1,4 +1,4 @@
-package codabook.agecalculator.osgi.impl;
+package codabook.placelocator.osgi.impl;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -8,8 +8,8 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
-import codabook.agecalculator.osgi.ifce.IPlaceLocator;
-import codabook.agecalculator.osgi.ifce.AvailablePlace;
+import codabook.placelocator.osgi.ifce.AvailablePlace;
+import codabook.placelocator.osgi.ifce.IPlaceLocator;
 
 /*************************************************************************************************
  *
